@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "--rootdir",
+        "${workspaceFolder}/src"
+    ],
+    "files.exclude": {
+        "**/__pycache__/": true,
+        "**/.pytest_cache/": true,
+    },
+}
